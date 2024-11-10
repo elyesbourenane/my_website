@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOURENANE</title>
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha3/css/bootstrap-grid.min.css' />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <menu class="position-fixed">
+            <div class="menu_control">
+                <button onclick="toggleClick(this,'.menu_ul')">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul class="menu_ul">
+                <li><a onclick="sectionToggle(this)" data-section="true" href="#home_section" class="active"> <i
+                            class="fas fa-home"></i> <span>HOME</span></a></li>
+                <li><a onclick="sectionToggle(this)" data-section="true" href="#about_section"><i
+                            class="fas fa-user"></i> <span>ABOUT</span></a></li>
+                            <li><a onclick="sectionToggle(this)" data-section="true" href="#skills_row"><i
+                                class="fas fa-laptop-code"></i> <span>Skills</span></a></li>
+                <li><a onclick="sectionToggle(this)" data-section="true" href="#portfolio"> <i
+                            class="fas fa-folder-open"></i> <span>PORTFOLIO</span></a></li>
+                <li><a onclick="sectionToggle(this)" data-section="true" href="#blog_section"> <i class="fas fa-envelope"></i>
+                        <span>CONTACT</span></a></li>
+                <!-- <li><a onclick="sectionToggle(this)" data-section="true" href="#blog_section"> <i class="fas fa-comment"></i>
+                        <span>BLOG</span></a></li> -->
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <section id="home_section">
+            <div class="row no-gutters justify-content-center align-items-center">
+                <div class="col-lg-5">
+                    <div class="profile_img">
+                        <div class="bg_image"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="content_home">
+                        <h3>
+                            HI THERE !
+                        </h3>
+                        <h1>
+                            I'M <span>Bourenane Mohamed Elyes</span>
+                        </h1>
+                        <strong>
+                            Welcome to my digital space! I’m a Web Developer currently shaping innovative solutions at BNP Paribas in Paris. My journey began with a bachelor’s degree in Computer Science from Sorbonne University, one of the world’s most prestigious universities. Now, I’m expanding my expertise with a master’s degree in Web Development, where I continue to push the boundaries of technology.
+                            <br><br>
+                            My career started in freelancing as a Python developer, giving me a solid foundation in problem-solving and delivering impactful solutions. Today, my expertise spans the full stack, and I excel at creating responsive, efficient, and user-centered applications using React, Angular, WordPress, Spring Boot, Node.js, PHP, Python, SQL, and MangoDB. Whether crafting sleek frontends or building robust backend systems, I’m passionate about building experiences that truly resonate with users.
+                            <br><br>
+                            Beyond web development, I’m deeply invested in data science and artificial intelligence. Certified in data science and deep learning, I’ve brought innovative solutions to life through projects that blend advanced algorithms with practical, real-world applications.
+                            <br><br>
+                            Let’s create something extraordinary together!
+                        </strong>
+                        <div class="about_it">
+                            <a href="#about_section">MORE ABOUT ME <i class="fas fa-user"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about_section">
+            <div class="section_title">
+                <h2>
+                    RESUME
+                    <span>ABOUT <b>ME</b></span>
+                </h2>
+            </div>
+            <div class="container-xxl">
+                <div class="row justify-content-md-center bottom_line">
+
+                    <div class="col-lg-5">
+                        <h3>PERSONAL INFOS</h3>
+                        <div class="d-flex justify-content-between">
+                            <ul class="list_order">
+                                <li>First Name : <strong class="ran-txt">Mohamed Elyes</strong></li>
+                                <li>Last Name : <strong>BOURENANE</strong> </li>
+                                <li>Age : <strong>22 Years</strong></li>
+                                <li>Freelance : <strong>Available</strong></li>
+                            </ul>
+                            <ul class="list_order">
+                                <li>Address : <strong>Paris, France</strong></li>
+                                <li>Phone : <strong>+33 6 51 80 52 49</strong></li>
+                                <li>Email : <strong>bourenane.elyes@gmail.com</strong></li>
+                                <li>Languages : <strong>English, Arabic, French</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <ul class="list_box">
+                            <li> <strong> 3 <sup>+</sup> </strong>
+                                <span>YEARS OF <br>
+                                    EXPERIENCE</span>
+                            </li>
+                            <li>
+                                <strong>20 <sup>+</sup></strong>
+                                <span>
+                                    COMPLETED <br>
+                                    PROJECTS
+                                </span>
+                            </li>
+                            <li> <strong>20 <sup>+</sup></strong>
+                                <span>HAPPY <br>
+                                    CUSTOMERS</span>
+                            </li>
+                            <li>
+                                <strong>3 <sup>+</sup></strong>
+                                <span>
+                                    Certificates <br>
+                                    Completed
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section_title">
+                    <h2>
+                        TECH
+                        <span>MY <b>Skills</b></span>
+                    </h2>
+                </div>
+                <div class="skills" id="skills_row">
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_react.png" alt=""></div>
+                        <div class="name"> REACT </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_angular.png" alt=""></div>
+                        <div class="name"> ANGULAR </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_wordpress.png" alt=""></div>
+                        <div class="name"> WORDPRESS </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_node.png" alt=""></div>
+                        <div class="name"> NODE JS </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_spring.png" alt=""></div>
+                        <div class="name"> JAVA SPRING </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_php.png" alt=""></div>
+                        <div class="name"> PHP </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_sql.png" alt=""></div>
+                        <div class="name"> SQL </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_mongo.png" alt=""></div>
+                        <div class="name"> MONGO DB </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_python.png" alt=""></div>
+                        <div class="name"> PYTHON </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_tenser.png" alt=""></div>
+                        <div class="name"> TENSORFLOW </div>
+                    </div>
+                    <div class="skill">
+                        <div class="photo"><img src="./images/logo_pandas.svg" alt=""></div>
+                        <div class="name"> PANDAS </div>
+                    </div>
+                </div>
+                <div class="row bottom_line mt-5 px-4 justify-content-md-center" id="experience_row">
+                    <div class="section_title" style="margin-bottom: 50px;">
+                        <h2>
+                            TECH
+                            <span>EXPERIENCE <b>&</b> EDUCATION</span>
+                        </h2>
+                    </div>
+                    <div class="col-md-5 pr-md-5">
+                        <div class="wrapper_col mb-5 " data-content="&#xf0b1">
+                            <time>2024 - PRESENT</time>
+                            <div class="head_name">
+                                <h4 data-content=" - BNP PARIBAS Paris"> Back End Developer </h4>
+                            </div>
+                            
+                        </div>
+                        <div class="wrapper_col  mb-5" data-content="&#xf0b1">
+                            <time>2023 - 2023</time>
+                            <div class="head_name">
+                                <h4 data-content=" - Sorbonne University Paris"> MERN Web Developer </h4>
+                            </div>
+                            
+                        </div>
+                        <div class="wrapper_col  mb-5" data-content="&#xf0b1">
+                            <time>2022 - 2023</time>
+                            <div class="head_name">
+                                <h4 data-content=" - Khamasat"> Python Developer
+                                </h4>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="wrapper_col  mb-5" data-content="&#xf19d">
+                            <time>2024 - PRESENT</time>
+                            <div class="head_name">
+                                <h4 data-content=" - ESIEE Paris">Master's of Science in Software Engineering </h4>
+                            </div>
+            
+                        </div>
+                        <div class="wrapper_col  mb-5" data-content="&#xf19d">
+                            <time>2021 - 2024</time>
+                            <div class="head_name">
+                                <h4 data-content=" - Sorbonne University"> Bachelor's of Science in Software Engineering </h4>
+                            </div>
+
+                        </div>
+                        <div class="wrapper_col  mb-5" data-content="&#xf19d">
+                            <time>2020 - 2021</time>
+                            <div class="head_name">
+                                <h4 data-content=" - High School of Computer Science"> Preparatory Class for Computer Science </h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>
+            <div class="section_title"  id="portfolio">
+                <h2>
+                    PORTFOLIO
+                    <span>MY <b>PROJECTS</b></span>
+                </h2>
+            </div>
+        </div>
+        <section class="projects">
+            
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <img src="./images/social.webp" alt="">
+                    <h2>Social Media Web App</h2>
+                    <p>Account management, post creation, and friend connections.</p>
+                    <p class="tech-stack">React • NodeJs • ExpressJs • MongoDB</p>
+                    <a href="https://github.com/elyesbourenane/SocialMediaApp" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./images/recommander.png" alt="">
+                    <h2>Recipe Recommender Web App</h2>
+                    <p>Deep Learning Web Application.</p>
+                    <p class="tech-stack">React • Nodejs • Python • TensorFlow • NLTK</p>
+                    <a href="https://github.com/elyesbourenane/Recipe_Recommander" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./images/music.jpg" alt="">
+                    <h2>Music Generator</h2>
+                    <p>This project allows you to train a neural network to generate midi music files that make use of a single instrument</p>
+                    <p class="tech-stack">Python • TensorFlow</p>
+                    <a href="https://github.com/elyesbourenane/MusicGenerator" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./images/heart.jpg" alt="">
+                    <h2>Heart Disease Prediction</h2>
+                    <p>Predict the presence of heart disease based on various health parameters using machine learning techniques.</p>
+                    <p class="tech-stack">Python • Pandas • TensorFlow • Sklearn</p>
+                    <a href="https://github.com/elyesbourenane/Heart_Disease_EDA_Prediction" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./images/fraud.webp" alt="">
+                    <h2>Fraud Detection</h2>
+                    <p>A fraud detection application using a dataset with transaction information.</p>
+                    <p class="tech-stack">Python • Pandas • TensorFlow • Sklearn</p>
+                    <a href="https://github.com/elyesbourenane/Fraud_Detection" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./images/salon.png" alt="">
+                    <h2>Hair Salon</h2>
+                    <p>A website for a hair salon that allows you to connect and make an appointment.</p>
+                    <p class="tech-stack">HTML • CSS • Bootstrap • JS • PHP • MySQL</p>
+                    <a href="https://github.com/elyesbourenane/Mad-Salon" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+    
+                <div class="project-card">
+                    <img src="./images/netflix.png" alt="">
+                    <h2>Netflix Clone</h2>
+                    <p>Frontend Netflix Clone.</p>
+                    <p class="tech-stack">HTML • CSS • JS</p>
+                    <a href="https://github.com/elyesbourenane/Netflix_Clone" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./images/library.png" alt="">
+                    <h2>Library Management System</h2>
+                    <p>Desktop Application with Python.</p>
+                    <p class="tech-stack">Python • PyQt • Sqlite</p>
+                    <a href="https://github.com/elyesbourenane/Library-System" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+    
+                <div class="project-card">
+                    <img src="./images/metro.png" alt="">
+                    <h2>Metro Network</h2>
+                    <p>A mini software simulating metro network.</p>
+                    <p class="tech-stack">C language</p>
+                    <a href="#" target="_blank" class="github-button">View in GitHub</a>
+                </div>
+    
+            </div>
+        </section>
+
+        <section id="contact_section">
+            <div class="section_title">
+                <h2>
+                    CONTACT
+                    <span>GET <b>IN TOUCH</b></span>
+                </h2>
+            </div>
+
+            <div class="contact container">
+                <ul class="cont" id="contact">
+                    <li><a href="mailto:bourenane.elyes@gmail.com"> Email</a></li>
+                    <li><a target="_blank" href="https://linkedin.com/in/elyesmo"> Linkedin</a></li>
+                    <li><a target="_blank" href="https://github.com/elyesbourenane"> GitHub</a></li>    
+                </ul>
+            </div>
+            
+        </section>
+        <section id="blog_section">
+            
+        </section>
+        <footer>
+            <div style="text-align: center">
+                <p style="color: white">©2024. All rights Reserved</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="./vendor/circles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
